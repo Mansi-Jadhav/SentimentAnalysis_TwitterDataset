@@ -12,7 +12,7 @@ Labelled dataset with approximately 27000 tweets from Twitter and their labels.
 Reads a tab-separated Twitter dataset, extracting tweet text and sentiment labels (e.g., positive, negative).
 
 **Text Preprocessing:**
-Cleans tweets using regular expressions - removing punctuation, special characters, converting test to lowercase.
+Cleans tweets using regular expressions - removing punctuation, special characters, converting text to lowercase.
 Tokenizes and lemmatizes text using NLTK’s WordNetLemmatizer.
 
 **Feature Engineering:**
